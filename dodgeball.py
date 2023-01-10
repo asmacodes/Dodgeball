@@ -83,10 +83,7 @@ def play_game():
     while human_points < 5 and computer_points <5: #the game stops when one of the players reaches 5 points
         human_action = get_human_action(num_human_balls, num_computer_balls)
         computer_action = get_computer_action(num_human_balls, num_computer_balls)
-        #print(computer_action)
-        
-        #if computer_action == 'pickup' and num_computer_balls == 3:
-            #print('You have already picked the maximum number of balls')
+       
         
         if human_action == 'pickup' and num_human_balls != 3:
             
